@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+void Star_pattern() 
+{ 
+    int a; 
+    printf("Enter how many stars(*) you want : \n"); 
+    scanf("%d", &a); 
+    for (int i = 0; i < a; i++) 
+    {
+        printf("*"); 
+    }
+    // Move the return statement outside of the loop
+    return 0;
+} 
+
+int main() 
+{
+    Star_pattern(); // Call the function
+    return 0;
+}
+
+
+
